@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className={isActive ? "active" : ""} id="nav">
       <ul>
         <li>
-          <Link to="#">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/breeds">Breeds</Link>

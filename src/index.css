@@ -15,12 +15,18 @@ code {
 :root {
   --background_1: #eafbff;
   --background_2: #5290f9;
-  
- 
+
+  --breed-card: #d14a4a;
+
+  --random-bg: #fff;
+  --random-btn: #9f68e0;
 }
 [data-theme="dark"] {
   --background_1: #007793;
   --background_2: #032660;
 
+  --breed-card: brown;
 
+  --random-bg: #b3b3b3;
+  --random-btn: #551f96;
 }
