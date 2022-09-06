@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+<p align="center"> 
+  <img src="https://github.com/RediG7/Cat-App-ReactJs/blob/main/public/favicon.ico" alt="Cats App Main Logo" width="80px" height="80px">
+</p>
+<h1 align="center"> Cats N Facts </h1>
+<h3 align="center"> Facts About Cats </h3>
+<h5 align="center"> React Challenge - Project 1 - <a href="https://cats-and-facts.netlify.app/">Cats App</a> (End of Summer 2022) </h5>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
+<h2 id="table-of-contents"> :book: Table of Contents</h2>
 
-## Available Scripts
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project"> ➤ About The Project</a></li>
+    <li><a href="#images"> ➤ Images</a></li>
+    <li><a href="#overview"> ➤ Overview</a></li>
+    <li><a href="#updates"> ➤ Upcoming Updates</a></li>
+    <li><a href="#getting-started"> ➤ Getting Started</a></li>
+    <li><a href="#credits"> ➤ Credits</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+![-----------------------------------------------------](https://github.com/RediG7/Movie-App-Angular/blob/main/rainbow.png)
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
+<h2 id="about-the-project"> :pencil: About The Project</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="justify"> 
+  This project was as a challenge for me to do in the React world. It's not optimal but it was done fast and without planning. It's fairly basic but as always you learn new things. It has no backend and all the data is provided by catfact.ninja API.
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![-----------------------------------------------------](https://github.com/RediG7/Movie-App-Angular/blob/main/rainbow.png)
 
-### `npm test`
+<h2 id="images"> Images </h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<table>
+  <tr>
+    <td>
+        <img src="https://github.com/RediG7/Cat-App-ReactJs/blob/main/src/assets/images/home.jpg" alt="Cats App Home" width="640px" height="300px">
+    </td>
+    <td>
+        <img src="https://github.com/RediG7/Cat-App-ReactJs/blob/main/src/assets/images/breeds.jpg" alt="Cats App Breeds" width="640px" height="300px">
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <img src="https://github.com/RediG7/Cat-App-ReactJs/blob/main/src/assets/images/facts.jpg" alt="Cats App Facts" width="640px" height="300px">
+    </td>
+    <td>
+        <img src="https://github.com/RediG7/Cat-App-ReactJs/blob/main/src/assets/images/random.jpg" alt="Cats App Random" width="640px" height="300px">
+    </td>
+  </tr>
+</table>
 
-### `npm run build`
+![-----------------------------------------------------](https://github.com/RediG7/Movie-App-Angular/blob/main/rainbow.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- OVERVIEW -->
+<h2 id="overview"> :cloud: Overview</h2>
+  
+<p align="justify"> 
+  The <strong>Home</strong> page is only for navigation. It has dark mode option too and small animation on close/open nav.
+  <strong>Breeds</strong> Page shows 10 cards with cat breed info. You can go to different pages from the pagination at the right side of the website. 
+  <strong>Facts</strong> Page is cloud text style with 10 facts about cats. By clicking on the fact you get an alert with the fact. Same Pagination.
+  <strong>Random</strong> Page gives you a random cat fact and the option to get other random facts.
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![-----------------------------------------------------](https://github.com/RediG7/Movie-App-Angular/blob/main/rainbow.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- PROJECT FILES DESCRIPTION -->
+<h2 id="updates"> :floppy_disk: Upcoming Updates</h2>
 
-### `npm run eject`
+<ul>
+  <li><b>Search</b> - Search for a breed.</li>
+</ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h3> Some known bugs/errors</h3>
+<ul>
+  <li><b>Responsivity</b> - Page was not built mobile first and with no intention of responsivity it may look weird in some devices. </li>
+  <li><b>Delete From Details Page</b> - Not done because kinda pointless but can easily be implemented with a filter function.</li>
+</ul>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![-----------------------------------------------------](https://github.com/RediG7/Movie-App-Angular/blob/main/rainbow.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
+<h2 id="getting-started"> :book: Getting Started</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>You are able to run this project in your local environment by doing:</p>
+<pre><code>$ git clone https://github.com/RediG7/Cat-App-ReactJs.git</code></pre>
+<pre><code>$ npm i && npm start</code></pre>
 
-## Learn More
+![-----------------------------------------------------](https://github.com/RediG7/Movie-App-Angular/blob/main/rainbow.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Redi Guleksi
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RediG7)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/redi-guleksi-0164991b1/)
