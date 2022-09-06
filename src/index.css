@@ -20,6 +20,8 @@ code {
 
   --random-bg: #fff;
   --random-btn: #9f68e0;
+
+  --pagination-active: #000;
 }
 [data-theme="dark"] {
   --background_1: #007793;
@@ -29,4 +31,31 @@ code {
 
   --random-bg: #b3b3b3;
   --random-btn: #551f96;
+
+  --pagination-active: #fff;
+}
+
+.ul_tag {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5;
+  border: 2px solid red;
+}
+
+.active_a {
+  color: var(--pagination-active) !important;
+  opacity: 1 !important;
+}
+
+.li_tag {
+  padding: 15px;
+  background-color: transparent;
+  opacity: 0.7;
+}
+
+.li_tag a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
 }

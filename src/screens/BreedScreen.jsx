@@ -2,20 +2,28 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import axios from "axios";
+import Pagination from "react-js-pagination";
 import "./BreedScreen.css";
 
 const BreedScreen = () => {
   const [breeds, setBreeds] = useState({ data: [] });
+  const [activePage, setActivePage] = useState(1);
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios("https://catfact.ninja/breeds?limit=10");
+      const result = await axios(
+        `https://catfact.ninja/breeds?limit=10&page=${activePage}`
+      );
 
       setBreeds(result.data);
     };
 
     fetchData();
-  }, []);
+  }, [activePage]);
+
+  const handlePageChange = (pageNumber) => {
+    setActivePage(pageNumber);
+  };
 
   return (
     <>
@@ -46,7 +54,20 @@ const BreedScreen = () => {
           </div>
         ))}
       </div>
-      <h3>HERE PAGINATION</h3>
+      <Pagination
+        activePage={breeds.current_page}
+        itemsCountPerPage={Number(breeds.per_page)}
+        totalItemsCount={breeds.total}
+        pageRangeDisplayed={5}
+        onChange={handlePageChange}
+        linkClassPrev={breeds.prev_page_url}
+        linkClassNext={breeds.next_page_url}
+        linkClassLast={breeds.last_page_url}
+        innerClass={"ul_tag"}
+        activeClass={"active_li"}
+        activeLinkClass={"active_a"}
+        itemClass={"li_tag"}
+      />
     </>
   );
 };
